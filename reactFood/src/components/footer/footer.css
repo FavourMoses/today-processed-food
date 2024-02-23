@@ -1,0 +1,19 @@
+.footerdiv1{
+    display: flex;
+    justify-content: space-between;
+    background-color:#056449;
+    padding: 20px;
+}
+.footerdiv2{
+    background-color: #056449;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.footerdiv3 h4{
+    background-color: #056449;
+    color: #ffffff;
+}
+.footerdiv3 h3{
+    background-color: #056449;
+    color: #ffffff;
+}

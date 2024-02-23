@@ -1,0 +1,110 @@
+.heroImg {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+.heroDiv2 {
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  color: #05412f;
+  font-size: 30px;
+  margin-left: 80px;
+}
+.healthy{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #05412f;
+  font-size: 30px;
+  margin-left: 80px;
+}
+
+.heroPara2{
+  display: flex;
+font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  color: #05412f;
+  margin-bottom: 30px;
+}
+span {
+  color:#03996c;
+}
+.heroDiv2 h1 {
+  font-size: 40px;
+}
+.box2Hero {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.underBox{
+  display: flex;
+  font-size: 20px;
+  color: #05412f;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+#heroId1{
+  width: 70%;
+  
+}
+.herohr{
+display: flex;
+  justify-items: center;
+  margin: 50px ;
+}
+
+@media screen and (max-width: 640px) {
+  .healthy{
+    padding: 10px;
+    font-size: 18px;
+  }
+  .heroPara2{
+    font-size: 17px;
+    margin-left: 15px;
+  }
+  .heroDiv2{
+    margin-left: 15px;
+    padding-bottom: 32px;
+  }
+  .underBox{
+    font-size: 17px;
+    display: flex;
+  text-align: left;
+  justify-content: left;
+  margin-left: 30px;
+  }
+  .box2Hero {
+  display: block;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .healthy{
+    padding: 10px;
+    font-size: 18px;
+  }
+  .heroPara2{
+    font-size: 17px;
+    margin-left: 15px;
+  }
+  .heroDiv2{
+    margin-left: 15px;
+    padding-bottom: 32px;
+  }
+  .underBox{
+    font-size: 17px;
+    display: flex;
+  text-align: left;
+  justify-content: left;
+  margin-left: 30px;
+  }
+  .box2Hero {
+  display: block;
+}
+}

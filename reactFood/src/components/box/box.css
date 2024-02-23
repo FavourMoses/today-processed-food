@@ -1,0 +1,85 @@
+.boxDiv1 {
+  display: flex;
+  /* box-shadow: 0px 0px 2px 0px #034230; */
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.boximg {
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.boxDiv2 {
+  padding-left: 60px;
+  padding-top: 70px;
+}
+.boxH3 {
+  color: #034230;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.boxDiv2 p {
+  padding-bottom: 10px;
+  width: 620px;
+  font-size: 19px;
+  color: #034230;
+}
+.boxDiv2 h4 {
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  left: 300px;
+}
+
+@media screen and (max-width: 640px) {
+  .boxDiv1 {
+    width: 100%;
+    display: block;
+    margin-left: 25px;
+  }
+  .boximg {
+    height: 400px;
+    width: 590px;
+    object-fit: cover;
+  }
+  .boxDiv2 {
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  .boxDiv2 p {
+    width: 90%;
+    font-size: 17px;
+  }
+  .boxDiv2 h4 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boxDiv1 {
+    width: 100%;
+    display: block;
+    margin-left: 25px;
+  }
+  .boximg {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+  }
+  .boxDiv2 {
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  .boxDiv2 p {
+    width: 90%;
+    font-size: 17px;
+  }
+  .boxDiv2 h4 {
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    margin-top: -350px;
+  }
+}
